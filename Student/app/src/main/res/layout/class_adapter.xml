@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/c_id"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/c_name"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="88dp" />
+
+
+    <TextView
+        android:id="@+id/c_name"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/c_desc"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/c_id"
+        tools:layout_editor_absoluteY="88dp" />
+
+
+    <TextView
+        android:id="@+id/c_desc"
+        android:layout_width="149dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/c_name"
+        tools:layout_editor_absoluteY="88dp" />
+
+</android.support.constraint.ConstraintLayout>
